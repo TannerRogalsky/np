@@ -1,0 +1,17 @@
+[package]
+name = "data-fetch"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+api = { path = "../api" }
+base64 = "0.21.2"
+plotters = "0.3.5"
+reqwest = { version = "0.11.20", features = ["cookies", "json"] }
+serde-aux = { version = "4.2.0", default-features = false }
+serde_json = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
