@@ -27,11 +27,11 @@ pub struct OrderRequest {
     pub ty: std::borrow::Cow<'static, str>,
     pub order: std::borrow::Cow<'static, str>,
     pub version: Option<i32>,
-    pub game_number: u64,
+    pub game_number: i64,
 }
 
 impl OrderRequest {
-    pub fn full_universe_report(game_number: u64) -> Self {
+    pub fn full_universe_report(game_number: i64) -> Self {
         Self {
             ty: "order".into(),
             order: "full_universe_report".into(),
@@ -54,14 +54,14 @@ pub struct Report {
     pub paused: bool,
     pub productions: i32,
     pub tick_fragment: i32,
-    pub now: u64,
+    pub now: i64,
     pub tick_rate: i32,
     pub production_rate: i32,
     pub stars: std::collections::HashMap<ID, Star>,
     pub stars_for_victory: i32,
     pub game_over: i32,
     pub started: bool,
-    pub start_time: u64,
+    pub start_time: i64,
     pub total_stars: i32,
     pub production_counter: i32,
     pub trade_scanned: i32,
@@ -73,7 +73,7 @@ pub struct Report {
     pub turn_based: i32,
     pub war: i32,
     pub players: std::collections::HashMap<ID, Player>,
-    pub turn_based_time_out: u64,
+    pub turn_based_time_out: i64,
 }
 
 #[derive(
@@ -138,24 +138,12 @@ pub struct Fleet {
 
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
 pub struct Star {
-    /// Where ships/tick is not a whole number, the amount currently produced
-    pub c: f32,
-    /// Current level of economy
-    pub e: i32,
     /// Unique ID for the star (matches to the key in the parent object)
     pub uid: i32,
-    /// Current level of industry
-    pub i: i32,
-    /// Current level of science
-    pub s: i32,
     /// The current name of the star
     pub n: String,
     /// Player ID of the player who owns the star
     pub puid: i32,
-    /// Resource level of the star (including terraforming bonus)
-    pub r: i32,
-    /// The presence of a warpgate. 0= no gate, 1 = gate
-    pub ga: i32,
     /// Flag for if the star is visible. 0 = no, 1 = yes
     #[serde(deserialize_with = "serde_aux::field_attributes::deserialize_number_from_string")]
     pub v: i32,
@@ -163,6 +151,24 @@ pub struct Star {
     pub y: f32,
     #[serde(deserialize_with = "serde_aux::field_attributes::deserialize_number_from_string")]
     pub x: f32,
+    #[serde(flatten)]
+    pub extra: Option<VisibleStar>,
+}
+
+#[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+pub struct VisibleStar {
+    /// Where ships/tick is not a whole number, the amount currently produced
+    pub c: f32,
+    /// Current level of economy
+    pub e: i32,
+    /// Current level of industry
+    pub i: i32,
+    /// Current level of science
+    pub s: i32,
+    /// Resource level of the star (including terraforming bonus)
+    pub r: i32,
+    /// The presence of a warpgate. 0= no gate, 1 = gate
+    pub ga: i32,
     /// Natural resources of the star
     pub nr: i32,
     /// Number of ships on the star

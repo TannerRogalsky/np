@@ -5,13 +5,7 @@ async fn main() {
         .init();
 
     let db_url = std::env::var("DATABASE_URL").unwrap();
-    let pool = sqlx::postgres::PgPoolOptions::new()
-        .max_connections(5)
-        .connect(&db_url)
-        .await
-        .unwrap();
-
-    sqlx::migrate!("src/migrations").run(&pool).await.unwrap();
+    let pool = db::init(db_url).await.unwrap();
 
     let row: (i64,) = sqlx::query_as("SELECT $1")
         .bind(150_i64)
@@ -20,4 +14,10 @@ async fn main() {
         .unwrap();
 
     assert_eq!(row.0, 150);
+
+    let game = db::Game::fetch_or_insert(1234, &pool).await.unwrap();
+    tracing::info!("{:?}", game);
+
+    let players = game.players(&pool).await.unwrap();
+    tracing::info!("{:?}", players);
 }

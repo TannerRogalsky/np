@@ -1,14 +1,14 @@
 pub mod order;
 
 #[derive(Debug, Clone, serde::Serialize)]
-pub struct APIRequest {
-    pub game_number: u64,
-    pub code: std::borrow::Cow<'static, str>,
+pub struct APIRequest<'a> {
+    pub game_number: i64,
+    pub code: std::borrow::Cow<'a, str>,
     pub api_version: &'static str,
 }
 
-impl APIRequest {
-    pub fn v0_1<C: Into<std::borrow::Cow<'static, str>>>(game_number: u64, code: C) -> Self {
+impl<'a> APIRequest<'a> {
+    pub fn v0_1<C: Into<std::borrow::Cow<'a, str>>>(game_number: i64, code: C) -> Self {
         Self {
             game_number,
             code: code.into(),
