@@ -9,6 +9,6 @@ resource "aws_cloudwatch_event_target" "data_fetch_event" {
   rule = aws_cloudwatch_event_rule.data_fetch_event.name
   arn  = aws_lambda_function.data_fetch_lambda.arn
   input = jsonencode({
-    "game_id" : 6258592149405696
+    "game_id" : 4725907836895232
   })
 }

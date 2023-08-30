@@ -1,4 +1,4 @@
-use futures::TryStreamExt;
+use futures::{StreamExt, TryFutureExt};
 use lambda_runtime::{Error, LambdaEvent};
 use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
 
@@ -46,12 +46,21 @@ async fn handler(
     let game = db::Game::fetch_or_insert(game_id, pool).await?;
     let players = game.players(pool).await?;
 
-    players
+    let results = players
         .into_iter()
-        .map(|player| handle_player(game_id, player, client, pool))
+        .map(|player| {
+            let player_id = player.id;
+            handle_player(game_id, player, client, pool).map_err(move |err| (player_id, err))
+        })
         .collect::<futures::stream::FuturesUnordered<_>>()
-        .try_collect::<Vec<_>>()
-        .await?;
+        .collect::<Vec<Result<_, _>>>()
+        .await;
+
+    for result in results {
+        if let Err((player_id, err)) = result {
+            tracing::error!("FAILED TO FETCH PLAYER {}: {}", player_id, err);
+        }
+    }
 
     Ok(())
 }
@@ -61,7 +70,7 @@ async fn handle_player(
     player: db::Player,
     client: &reqwest::Client,
     pool: &db::Pool,
-) -> Result<(), lambda_runtime::Error> {
+) -> Result<(), db::Error> {
     let request = client
         .post("https://np.ironhelmet.com/api")
         .form(&api::APIRequest::v0_1(game_id, &player.api_token));

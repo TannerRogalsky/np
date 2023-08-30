@@ -10,3 +10,5 @@ dotenvy = { workspace = true }
 api = { path = "../api" }
 svg = "0.13.1"
 serde_json = { workspace = true }
+db = { path = "../db" }
+tokio = { workspace = true }

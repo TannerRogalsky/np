@@ -1,5 +1,6 @@
 pub type DB = sqlx::Postgres;
-pub type Result<T> = std::result::Result<T, sqlx::Error>;
+pub type Error = sqlx::Error;
+pub type Result<T> = std::result::Result<T, Error>;
 pub type Pool = sqlx::Pool<DB>;
 
 pub async fn init<T>(db_url: T) -> Result<Pool>
@@ -47,6 +48,48 @@ impl Game {
             .fetch_all(pool)
             .await
     }
+
+    pub async fn most_recent_tick(&self, pool: &Pool) -> Result<i64> {
+        sqlx::query_as::<_, (i64,)>("select max((u.payload -> 'tick')::bigint) from universes u join players p on p.id = u.player_id where p.game_id = $1;")
+            .bind(self.id)
+            .fetch_one(pool)
+            .await.map(|result| result.0)
+    }
+
+    pub async fn most_recent_universes_for_tick(
+        &self,
+        tick: i64,
+        pool: &Pool,
+    ) -> Result<Vec<Universe>> {
+        const QUERY: &str = r#"select
+        u.id,
+        u.player_id,
+        u.payload
+    from
+        (
+        select
+            u.*,
+            row_number() over tick as row_num
+        from
+            universes u
+        join players p on
+            p.id = u.player_id
+        where
+            p.game_id = $1
+    window
+        tick as (partition by u.payload -> 'tick',
+            u.player_id
+        order by
+            u.payload -> 'now' desc)) as u
+    where
+        row_num = 1
+        and (u.payload -> 'tick')::bigint = $2;"#;
+        sqlx::query_as::<_, Universe>(QUERY)
+            .bind(self.id)
+            .bind(tick)
+            .fetch_all(pool)
+            .await
+    }
 }
 
 #[derive(Debug, Clone, sqlx::FromRow)]
@@ -71,4 +114,11 @@ impl Player {
         .await
         .map(|r| r.0)
     }
+}
+
+#[derive(Debug, Clone, sqlx::FromRow)]
+pub struct Universe {
+    pub id: i32,
+    pub player_id: i32,
+    pub payload: sqlx::types::Json<api::order::Report>,
 }

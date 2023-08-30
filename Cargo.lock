@@ -256,6 +256,7 @@ dependencies = [
 name = "db"
 version = "0.1.0"
 dependencies = [
+ "api",
  "dotenvy",
  "serde",
  "sqlx",
@@ -1196,9 +1197,11 @@ name = "render"
 version = "0.1.0"
 dependencies = [
  "api",
+ "db",
  "dotenvy",
  "serde_json",
  "svg",
+ "tokio",
 ]
 
 [[package]]
