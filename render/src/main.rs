@@ -199,7 +199,8 @@ async fn main() {
     document = document.add(star_titles);
 
     svg::save(
-        root.join(format!("{}_tick{}.svg", game.game_id, tick)),
+        root.join("svgs")
+            .join(format!("{}_tick{:0>5}.svg", game.game_id, tick)),
         &document,
     )
     .unwrap();

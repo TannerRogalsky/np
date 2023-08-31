@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://bumbu.me/svg-pan-zoom/dist/svg-pan-zoom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        div {
+            flex: 1;
+        }
+
+        section {
+            display: flex;
+            flex-flow: column;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="app">
+        <header>
+            <input type="range" min="0" max="18" value="0" step="6" class="slider" id="tickRange">
+            <label for="tickRange" id="tickRangeLabel">0</label>
+        </header>
+        <div id="container"></div>
+        <footer></footer>
+    </section>
+
+
+    <script>
+        $(function () {
+            var lastEventListener = null;
+
+            function createNewEmbed(src) {
+                var embed = document.createElement('embed');
+                embed.setAttribute('style', 'width: 100%; height: 95vh; border:1px solid black;');
+                embed.setAttribute('type', 'image/svg+xml');
+                embed.setAttribute('src', src);
+
+                document.getElementById('container').appendChild(embed)
+
+                lastEventListener = function () {
+                    svgPanZoom(embed, {
+                        zoomEnabled: true,
+                        controlIconsEnabled: true
+                    });
+                }
+                embed.addEventListener('load', lastEventListener)
+
+                return embed
+            }
+
+            function setupNewEmbed(index) {
+                const id = index.padStart(5, '0');
+                const lastEmbedSrc = `svgs/4725907836895232_tick${id}.svg`;
+                const lastEmbed = createNewEmbed(lastEmbedSrc);
+                $('#tickRangeLabel').text(index);
+                return lastEmbed;
+            }
+
+            let lastEmbed = setupNewEmbed('0');
+
+            function removeEmbed() {
+                svgPanZoom(lastEmbed).destroy()
+                lastEmbed.removeEventListener('load', lastEventListener)
+                lastEventListener = null
+                document.getElementById('container').removeChild(lastEmbed)
+                lastEmbed = null
+            }
+
+            $('#tickRange').on('input', function (event, ui) {
+                removeEmbed()
+                lastEmbed = setupNewEmbed(event.target.value);
+            });
+        });
+    </script>
+
+</body>
+
+</html>
