@@ -206,6 +206,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9cace84e55f07e7301bae1c519df89cdad8cc3cd868413d3fdbdeca9ff3db484"
 
 [[package]]
+name = "create-cache"
+version = "0.1.0"
+dependencies = [
+ "api",
+ "db",
+ "dotenvy",
+ "serde_json",
+ "tokio",
+]
+
+[[package]]
 name = "crossbeam-queue"
 version = "0.3.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1197,7 +1208,6 @@ name = "render"
 version = "0.1.0"
 dependencies = [
  "api",
- "db",
  "dotenvy",
  "serde_json",
  "svg",

@@ -56,6 +56,13 @@ impl Game {
             .await.map(|result| result.0)
     }
 
+    pub async fn get_all_ticks(&self, pool: &Pool) -> Result<Vec<i64>> {
+        sqlx::query_as::<_, (i64,)>("select distinct((u.payload -> 'tick')::bigint) from universes u join players p on p.id = u.player_id where p.game_id = $1 order by u.id;")
+            .bind(self.id)
+            .fetch_all(pool)
+            .await.map(|result| result.into_iter().map(|e| e.0).collect())
+    }
+
     pub async fn most_recent_universes_for_tick(
         &self,
         tick: i64,

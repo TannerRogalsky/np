@@ -1,5 +1,6 @@
 [workspace]
-members = ["api", "db", "data-fetch", "render"]
+members = ["api", "db", "data-fetch", "render", "create-cache"]
+resolver = "2"
 
 [workspace.dependencies]
 dotenvy = "0.15.7"

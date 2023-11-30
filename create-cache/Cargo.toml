@@ -1,5 +1,5 @@
 [package]
-name = "render"
+name = "create-cache"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,6 +8,6 @@ edition = "2021"
 [dependencies]
 dotenvy = { workspace = true }
 api = { path = "../api" }
-svg = "0.13.1"
 serde_json = { workspace = true }
+db = { path = "../db" }
 tokio = { workspace = true }
