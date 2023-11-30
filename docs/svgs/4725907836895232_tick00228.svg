@@ -1,0 +1,1126 @@
+<svg viewBox="-3.4199998 -2.05832 6.84 6.11664" xmlns="http://www.w3.org/2000/svg">
+<style>
+.star { font: 0.05px sans-serif; fill: red; }
+.fleet { font: 0.03px sans-serif; fill: white; }
+</style>
+<g fill="none" stroke="black" stroke-width="0.01">
+<circle cx="-1.5927" cy="3.2339" fill="#00A0DF" r="0.05"/>
+<circle cx="-0.75" cy="1.0495" fill="#37BB00" r="0.05"/>
+<circle cx="1.3146" cy="-0.2202" fill="#C11A00" r="0.05"/>
+<circle cx="-1.7646" cy="2.0022" fill="#37BB00" r="0.05"/>
+<circle cx="-0.9294" cy="3.134" fill="#00A0DF" r="0.05"/>
+<circle cx="0.5706" cy="0.5359" fill="#C11A00" r="0.05"/>
+<circle cx="-0.75" cy="2.2495" fill="#FFBE0E" r="0.05"/>
+<circle cx="-0.1794" cy="1.8349" fill="#FFBE0E" r="0.05"/>
+<circle cx="-1.7427" cy="2.7722" fill="#00A0DF" r="0.05"/>
+<circle cx="1.95" cy="-0.9486" fill="#C11A00" r="0.05"/>
+<circle cx="-1.7646" cy="1.2968" fill="#37BB00" r="0.05"/>
+<circle cx="1.6794" cy="-1.134" fill="#C11A00" r="0.05"/>
+<circle cx="2.0706" cy="0.5359" fill="#0433FF" r="0.05"/>
+<circle cx="1.1473" cy="-0.1349" fill="#0433FF" r="0.05"/>
+<circle cx="-1.8973" cy="2.1349" fill="#37BB00" r="0.05"/>
+<circle cx="2.7354" cy="-0.5959" fill="#C11A00" r="0.05"/>
+<circle cx="-1.1027" cy="1.1641" fill="#37BB00" r="0.05"/>
+<circle cx="-1.9854" cy="2.5959" fill="#00A0DF" r="0.05"/>
+<circle cx="-0.9" cy="2.9486" fill="#00A0DF" r="0.05"/>
+<circle cx="-2.4354" cy="2.2202" fill="#37BB00" r="0.05"/>
+<circle cx="-1.0146" cy="3.3012" fill="#00A0DF" r="0.05"/>
+<circle cx="-1.95" cy="1.6495" fill="#37BB00" r="0.05"/>
+<circle cx="1.3146" cy="0.9211" fill="#0433FF" r="0.05"/>
+<circle cx="2.25" cy="-0.9486" fill="#C11A00" r="0.05"/>
+<circle cx="1.5927" cy="0.6358" fill="#0433FF" r="0.05"/>
+<circle cx="1.8" cy="0.3505" fill="#0433FF" r="0.05"/>
+<circle cx="-2.1573" cy="1.3642" fill="#37BB00" r="0.05"/>
+<circle cx="-2.4927" cy="1.4732" fill="#37BB00" r="0.05"/>
+<circle cx="-1.6854" cy="3.5192" fill="#00A0DF" r="0.05"/>
+<circle cx="1.0146" cy="-0.0022" fill="#0433FF" r="0.05"/>
+<circle cx="2.8206" cy="-0.7631" fill="#C11A00" r="0.05"/>
+<circle cx="1.4073" cy="0.0652" fill="#0433FF" r="0.05"/>
+<circle cx="-0.45" cy="1.6495" fill="#FFBE0E" r="0.05"/>
+<circle cx="-1.7427" cy="3.1249" fill="#00A0DF" r="0.05"/>
+<circle cx="-0.3527" cy="0.8359" fill="#FFBE0E" r="0.05"/>
+<circle cx="0" cy="0.9505" fill="#C11A00" r="0.05"/>
+<circle cx="0.4854" cy="-0.0022" fill="#C11A00" r="0.05"/>
+<circle cx="2.4927" cy="-1.1249" fill="#C11A00" r="0.05"/>
+<circle cx="-2.7354" cy="2.0022" fill="#37BB00" r="0.05"/>
+<circle cx="1.8973" cy="-0.4631" fill="#C11A00" r="0.05"/>
+<circle cx="-0.2646" cy="1.2968" fill="#FFBE0E" r="0.05"/>
+<circle cx="-0.9354" cy="2.2202" fill="#FFBE0E" r="0.05"/>
+<circle cx="-2.0706" cy="3.134" fill="#00A0DF" r="0.05"/>
+<circle cx="-0.5073" cy="1.4732" fill="#FFBE0E" r="0.05"/>
+<circle cx="-0.75" cy="1.6495" fill="#FFBE0E" r="0.05"/>
+<circle cx="-2.55" cy="1.6495" fill="#37BB00" r="0.05"/>
+<circle cx="-2.8206" cy="1.8349" fill="#37BB00" r="0.05"/>
+<circle cx="0.6" cy="0.3505" fill="#0433FF" r="0.05"/>
+<circle cx="-1.5" cy="3.5486" fill="#00A0DF" r="0.05"/>
+<circle cx="-1.6794" cy="1.8349" fill="#37BB00" r="0.05"/>
+<circle cx="-2.6027" cy="2.1349" fill="#37BB00" r="0.05"/>
+<circle cx="-2.1" cy="2.9486" fill="#00A0DF" r="0.05"/>
+<circle cx="-0.3973" cy="1.1641" fill="#FFBE0E" r="0.05"/>
+<circle cx="-1.8" cy="2.9486" fill="#00A0DF" r="0.05"/>
+<circle cx="-1.3146" cy="2.3779" fill="#00A0DF" r="0.05"/>
+<circle cx="-1.2573" cy="2.7722" fill="#00A0DF" r="0.05"/>
+<circle cx="-0.6" cy="0.3505" fill="#0433FF" r="0.05"/>
+<circle cx="2.8206" cy="-1.134" fill="#C11A00" r="0.05"/>
+<circle cx="1.7646" cy="-0.5959" fill="#C11A00" r="0.05"/>
+<circle cx="-1.35" cy="1.6495" fill="#37BB00" r="0.05"/>
+<circle cx="-2.0646" cy="1.0789" fill="#37BB00" r="0.05"/>
+<circle cx="-1.1027" cy="2.1349" fill="#00A0DF" r="0.05"/>
+<circle cx="-1.3206" cy="1.8349" fill="#FFBE0E" r="0.05"/>
+<circle cx="-2.0646" cy="2.2202" fill="#37BB00" r="0.05"/>
+<circle cx="-1.8973" cy="1.1641" fill="#37BB00" r="0.05"/>
+<circle cx="-0.9927" cy="1.8259" fill="#FFBE0E" r="0.05"/>
+<circle cx="-0.1854" cy="-0.2202" fill="#C11A00" r="0.05"/>
+<circle cx="-0.6573" cy="1.3642" fill="#FFBE0E" r="0.05"/>
+<circle cx="-2.7354" cy="1.2968" fill="#37BB00" r="0.05"/>
+<circle cx="-1.8527" cy="2.4631" fill="#00A0DF" r="0.05"/>
+<circle cx="-2.1573" cy="1.9348" fill="#37BB00" r="0.05"/>
+<circle cx="-0.6573" cy="1.9348" fill="#FFBE0E" r="0.05"/>
+<circle cx="-0.2427" cy="0.5268" fill="#0433FF" r="0.05"/>
+<circle cx="-0.0927" cy="0.0652" fill="#C11A00" r="0.05"/>
+<circle cx="-0.9927" cy="1.4732" fill="#FFBE0E" r="0.05"/>
+<circle cx="2.7354" cy="-1.3012" fill="#C11A00" r="0.05"/>
+<circle cx="2.3427" cy="-1.2339" fill="#C11A00" r="0.05"/>
+<circle cx="1.7646" cy="-1.3012" fill="#0433FF" r="0.05"/>
+<circle cx="-1.4073" cy="2.6632" fill="#00A0DF" r="0.05"/>
+<circle cx="-0.2646" cy="2.0022" fill="#FFBE0E" r="0.05"/>
+<circle cx="-1.2573" cy="3.1249" fill="#00A0DF" r="0.05"/>
+<circle cx="2.6027" cy="-1.434" fill="#C11A00" r="0.05"/>
+<circle cx="-2.0073" cy="1.4732" fill="#37BB00" r="0.05"/>
+<circle cx="-0.3973" cy="2.1349" fill="#FFBE0E" r="0.05"/>
+<circle cx="1.7427" cy="0.1741" fill="#0433FF" r="0.05"/>
+<circle cx="1.0146" cy="0.7032" fill="#0433FF" r="0.05"/>
+<circle cx="2.85" cy="-0.9486" fill="#C11A00" r="0.05"/>
+<circle cx="2.1573" cy="-0.6632" fill="#C11A00" r="0.05"/>
+<circle cx="-2.3427" cy="1.9348" fill="#37BB00" r="0.05"/>
+<circle cx="1.5927" cy="0.0652" fill="#0433FF" r="0.05"/>
+<circle cx="1.9854" cy="-0.0022" fill="#0433FF" r="0.05"/>
+<circle cx="2.4354" cy="-0.3779" fill="#C11A00" r="0.05"/>
+<circle cx="-1.6794" cy="1.4641" fill="#37BB00" r="0.05"/>
+<circle cx="2.55" cy="-0.9486" fill="#C11A00" r="0.05"/>
+<circle cx="-0.3" cy="0.3505" fill="#C11A00" r="0.05"/>
+<circle cx="-1.1473" cy="2.4631" fill="#00A0DF" r="0.05"/>
+<circle cx="2.4354" cy="-1.5192" fill="#C11A00" r="0.05"/>
+<circle cx="0.5706" cy="0.1651" fill="#C11A00" r="0.05"/>
+<circle cx="-1.9854" cy="3.3012" fill="#00A0DF" r="0.05"/>
+<circle cx="-0.5706" cy="0.5359" fill="#0433FF" r="0.05"/>
+<circle cx="1.9854" cy="0.7032" fill="#0433FF" r="0.05"/>
+<circle cx="1.4073" cy="0.6358" fill="#0433FF" r="0.05"/>
+<circle cx="2.1" cy="0.3505" fill="#0433FF" r="0.05"/>
+<circle cx="1.8973" cy="-1.434" fill="#C11A00" r="0.05"/>
+<circle cx="0.0927" cy="0.0652" fill="#C11A00" r="0.05"/>
+<circle cx="-0.5073" cy="1.8259" fill="#FFBE0E" r="0.05"/>
+<circle cx="1.65" cy="-0.9486" fill="#C11A00" r="0.05"/>
+<circle cx="2.0646" cy="-1.5192" fill="#C11A00" r="0.05"/>
+<circle cx="2.1573" cy="-1.2339" fill="#C11A00" r="0.05"/>
+<circle cx="0.1854" cy="0.9211" fill="#C11A00" r="0.05"/>
+<circle cx="-1.05" cy="1.6495" fill="#FFBE0E" r="0.05"/>
+<circle cx="-2.4354" cy="1.0789" fill="#37BB00" r="0.05"/>
+<circle cx="-2.3427" cy="1.3642" fill="#37BB00" r="0.05"/>
+<circle cx="-1.5" cy="2.9486" fill="#00A0DF" r="0.05"/>
+<circle cx="0.1854" cy="-0.2202" fill="#C11A00" r="0.05"/>
+<circle cx="0.3" cy="0.3505" fill="#0433FF" r="0.05"/>
+<circle cx="1.1473" cy="0.8359" fill="#0433FF" r="0.05"/>
+<circle cx="2.0073" cy="-0.7722" fill="#C11A00" r="0.05"/>
+<circle cx="2.25" cy="-0.3486" fill="#C11A00" r="0.05"/>
+<circle cx="-0.1854" cy="0.9211" fill="#C11A00" r="0.05"/>
+<circle cx="2.25" cy="-1.5486" fill="#C11A00" r="0.05"/>
+<circle cx="1.8527" cy="0.8359" fill="#0433FF" r="0.05"/>
+<circle cx="1.2573" cy="0.5268" fill="#0433FF" r="0.05"/>
+<circle cx="-1.4073" cy="3.2339" fill="#00A0DF" r="0.05"/>
+<circle cx="1.5" cy="-0.2495" fill="#0433FF" r="0.05"/>
+<circle cx="1.6854" cy="0.9211" fill="#0433FF" r="0.05"/>
+<circle cx="-2.0706" cy="2.7631" fill="#00A0DF" r="0.05"/>
+<circle cx="-0.8427" cy="1.3642" fill="#FFBE0E" r="0.05"/>
+<circle cx="0.9294" cy="0.1651" fill="#C11A00" r="0.05"/>
+<circle cx="1.6794" cy="-0.7631" fill="#0433FF" r="0.05"/>
+<circle cx="2.0646" cy="-0.3779" fill="#C11A00" r="0.05"/>
+<circle cx="-1.8527" cy="3.434" fill="#00A0DF" r="0.05"/>
+<circle cx="1.7427" cy="0.5268" fill="#0433FF" r="0.05"/>
+<circle cx="1.8527" cy="-0.1349" fill="#0433FF" r="0.05"/>
+<circle cx="1.2" cy="0.3505" fill="#0433FF" r="0.05"/>
+<circle cx="-0.3527" cy="-0.1349" fill="#C11A00" r="0.05"/>
+<circle cx="1.5" cy="0.9505" fill="#0433FF" r="0.05"/>
+<circle cx="0.0927" cy="0.6358" fill="#0433FF" r="0.05"/>
+<circle cx="0" cy="0.3505" fill="#0433FF" r="0.05"/>
+<circle cx="-0.5646" cy="1.0789" fill="#FFBE0E" r="0.05"/>
+<circle cx="2.4927" cy="-0.7722" fill="#C11A00" r="0.05"/>
+<circle cx="-1.3146" cy="3.5192" fill="#00A0DF" r="0.05"/>
+<circle cx="0.4854" cy="0.7032" fill="#C11A00" r="0.05"/>
+<circle cx="-2.85" cy="1.6495" fill="#37BB00" r="0.05"/>
+<circle cx="-1.2354" cy="2.0022" fill="#FFBE0E" r="0.05"/>
+<circle cx="-0.9294" cy="2.7631" fill="#00A0DF" r="0.05"/>
+<circle cx="0.3527" cy="0.8359" fill="#C11A00" r="0.05"/>
+<circle cx="-0.15" cy="1.6495" fill="#FFBE0E" r="0.05"/>
+<circle cx="-0.9354" cy="1.0789" fill="#FFBE0E" r="0.05"/>
+<circle cx="-1.6854" cy="2.3779" fill="#00A0DF" r="0.05"/>
+<circle cx="-0.0927" cy="0.6358" fill="#0433FF" r="0.05"/>
+<circle cx="-0.2427" cy="0.1741" fill="#C11A00" r="0.05"/>
+<circle cx="-1.5" cy="2.3486" fill="#00A0DF" r="0.05"/>
+<circle cx="1.5" cy="0.3505" fill="#0433FF" r="0.05"/>
+<circle cx="-2.25" cy="1.0495" fill="#37BB00" r="0.05"/>
+<circle cx="-0.4854" cy="0.7032" fill="#0433FF" r="0.05"/>
+<circle cx="2.6027" cy="-0.4631" fill="#C11A00" r="0.05"/>
+<circle cx="-1.2" cy="2.9486" fill="#00A0DF" r="0.05"/>
+<circle cx="-2.25" cy="2.2495" fill="#37BB00" r="0.05"/>
+<circle cx="0.2427" cy="0.5268" fill="#0433FF" r="0.05"/>
+<circle cx="0.9294" cy="0.5359" fill="#0433FF" r="0.05"/>
+<circle cx="0.3527" cy="-0.1349" fill="#C11A00" r="0.05"/>
+<circle cx="-0.4854" cy="-0.0022" fill="#C11A00" r="0.05"/>
+<circle cx="-1.5927" cy="2.6632" fill="#00A0DF" r="0.05"/>
+<circle cx="-0.8427" cy="1.9348" fill="#FFBE0E" r="0.05"/>
+<circle cx="-2.0073" cy="1.8259" fill="#37BB00" r="0.05"/>
+<circle cx="-2.25" cy="1.6495" fill="#37BB00" r="0.05"/>
+<circle cx="0.9" cy="0.3505" fill="#0433FF" r="0.05"/>
+<circle cx="-1.65" cy="1.6495" fill="#37BB00" r="0.05"/>
+<circle cx="-2.8206" cy="1.4641" fill="#37BB00" r="0.05"/>
+<circle cx="1.6854" cy="-0.2202" fill="#0433FF" r="0.05"/>
+<circle cx="-1.2354" cy="1.2968" fill="#FFBE0E" r="0.05"/>
+<circle cx="2.0073" cy="-1.1249" fill="#C11A00" r="0.05"/>
+<circle cx="-2.4927" cy="1.8259" fill="#37BB00" r="0.05"/>
+<circle cx="-0.5706" cy="0.1651" fill="#0433FF" r="0.05"/>
+<circle cx="-0.5646" cy="2.2202" fill="#FFBE0E" r="0.05"/>
+<circle cx="-1.3206" cy="1.4641" fill="#FFBE0E" r="0.05"/>
+<circle cx="1.2573" cy="0.1741" fill="#0433FF" r="0.05"/>
+<circle cx="-0.1794" cy="1.4641" fill="#FFBE0E" r="0.05"/>
+<circle cx="-2.6027" cy="1.1641" fill="#37BB00" r="0.05"/>
+<circle cx="0.2427" cy="0.1741" fill="#C11A00" r="0.05"/>
+<circle cx="2.3427" cy="-0.6632" fill="#C11A00" r="0.05"/>
+<circle cx="2.0706" cy="0.1651" fill="#0433FF" r="0.05"/>
+<circle cx="0" cy="-0.2495" fill="#C11A00" r="0.05"/>
+<circle cx="-1.0146" cy="2.5959" fill="#00A0DF" r="0.05"/>
+<circle cx="-1.1473" cy="3.434" fill="#00A0DF" r="0.05"/>
+</g>
+<g fill="#37BB00">
+<line stroke="#37BB00" stroke-width="0.01" x1="-0.9045344" x2="-0.864907" y1="1.0997304" y2="1.0868546"/>
+<line stroke="#37BB00" stroke-width="0.01" x1="-0.864907" x2="-0.75" y1="1.0868546" y2="1.0495"/>
+<polygon points="-0.84113175 1.0791256 -0.8834882 1.0701292 -0.87010115 1.111309" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.864907" y="1.0993546">
+671
+</text>
+<line stroke="#37BB00" stroke-width="0.01" x1="-0.36755908" x2="-0.35267115" y1="0.82100326" y2="0.8358911"/>
+<polygon points="-0.33499345 0.85356873 -0.34620073 0.81174296 -0.37681928 0.8423617" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.35267115" y="0.8483911">
+159
+</text>
+<line stroke="#37BB00" stroke-width="0.01" x1="-2.317418" x2="-2.3511271" y1="1.600537" y2="1.5760459"/>
+<line stroke="#37BB00" stroke-width="0.01" x1="-2.3511271" x2="-2.4927" y1="1.5760459" y2="1.4732"/>
+<polygon points="-2.3713534 1.5613525 -2.3537388 1.6009091 -2.328289 1.5658761" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-2.3511271" y="1.5885459">
+1
+</text>
+<line stroke="#37BB00" stroke-width="0.01" x1="-1.4945449" x2="-1.4575806" y1="1.3679638" y2="1.3487347"/>
+<line stroke="#37BB00" stroke-width="0.01" x1="-1.4575806" x2="-1.1027" y1="1.3487347" y2="1.1641"/>
+<polygon points="-1.4354026 1.3371961 -1.4786623 1.3352973 -1.4586768 1.3737106" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.4575806" y="1.3612348">
+359
+</text>
+<line stroke="#37BB00" stroke-width="0.01" x1="-1.2874924" x2="-1.3244567" y1="1.2602539" y2="1.279483"/>
+<line stroke="#37BB00" stroke-width="0.01" x1="-1.3244567" x2="-1.6794" y1="1.279483" y2="1.4641"/>
+<polygon points="-1.3466359 1.2910191 -1.3033766 1.2929227 -1.3233577 1.2545072" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.3244567" y="1.291983">
+1
+</text>
+<line stroke="#37BB00" stroke-width="0.01" x1="-2.074713" x2="-2.108422" y1="1.4242014" y2="1.3997103"/>
+<line stroke="#37BB00" stroke-width="0.01" x1="-2.108422" x2="-2.1573" y1="1.3997103" y2="1.3642"/>
+<polygon points="-2.1286478 1.3850161 -2.1110346 1.4245734 -2.0855837 1.3895414" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-2.108422" y="1.4122103">
+12
+</text>
+<line stroke="#37BB00" stroke-width="0.01" x1="-1.2874924" x2="-1.3244567" y1="1.2602539" y2="1.279483"/>
+<line stroke="#37BB00" stroke-width="0.01" x1="-1.3244567" x2="-1.6794" y1="1.279483" y2="1.4641"/>
+<polygon points="-1.3466359 1.2910191 -1.3033766 1.2929227 -1.3233577 1.2545072" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.3244567" y="1.291983">
+2
+</text>
+</g>
+<g fill="#C11A00">
+<line stroke="#C11A00" stroke-width="0.01" x1="0.36755908" x2="0.35267115" y1="0.82100326" y2="0.8358911"/>
+<polygon points="0.33499345 0.8535688 0.37681928 0.8423616 0.3462007 0.81174296" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="0.35267115" y="0.8483911">
+101
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.07725425" x2="-0.09012996" y1="0.5882451" y2="0.6278724"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.09012996" x2="-0.1854" y1="0.6278724" y2="0.9211"/>
+<polygon points="-0.09785499 0.65164894 -0.065676354 0.6226742 -0.10685854 0.60929406" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.09012996" y="0.6403724">
+215
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.18025991" x2="-0.1854102" y1="0.9052639" y2="0.92111486"/>
+<polygon points="-0.19313562 0.9448913 -0.16095652 0.91591704 -0.20213848 0.9025363" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.1854102" y="0.93361485">
+126
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="2.007295" x2="2.007295" y1="-0.98055494" y2="-1.0222216"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="2.007295" x2="2.0073" y1="-1.0222216" y2="-1.1249"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="2.0073" x2="1.95" y1="-1.1249" y2="-0.9486"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.95" x2="2.0073" y1="-0.9486" y2="-0.7722"/>
+<polygon points="2.007296 -1.0472215 1.9856436 -1.0097226 2.028945 -1.0097206" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="2.007295" y="-1.0097215">
+1
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.76236" x2="1.7645898" y1="-0.5940242" y2="-0.595886"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.7645898" x2="2.0073" y1="-0.595886" y2="-0.7722"/>
+<polygon points="1.7848163 -0.61057925 1.7417518 -0.606056 1.7672013 -0.57102275" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="1.7645898" y="-0.583386">
+1
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="2.157295" x2="2.123586" y1="-0.6632402" y2="-0.68773127"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="2.123586" x2="2.0073" y1="-0.68773127" y2="-0.7722"/>
+<polygon points="2.103359 -0.7024238 2.1209753 -0.66286796 2.1464236 -0.697902" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="2.123586" y="-0.6752313">
+2
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.3168197" x2="1.3145899" y1="-0.22201481" y2="-0.22015296"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.3145899" x2="1.2" y1="-0.22015296" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.2" x2="0.6" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0.6" x2="0" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0" x2="0.0927" y1="0.3505" y2="0.6358"/>
+<polygon points="1.309668 -0.19564225 1.3382777 -0.22814587 1.2958239 -0.23667078" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="1.3145899" y="-0.20765296">
+309
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.6492503" x2="1.6387649" y1="-0.1523026" y2="-0.11197684"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.6387649" x2="1.5927" y1="-0.11197684" y2="0.0652"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.5927" x2="1.5" y1="0.0652" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.5" x2="1.2" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.2" x2="0.6" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0.6" x2="0.5706" y1="0.3505" y2="0.5359"/>
+<polygon points="1.6324742 -0.087781236 1.6628642 -0.118626736 1.6209562 -0.12952255" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="1.6387649" y="-0.09947684">
+126
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.075" x2="0.95" y1="0.35048094" y2="0.35048094"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0.95" x2="0.6" y1="0.35048094" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0.6" x2="0" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0" x2="-0.3" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.3" x2="0" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0" x2="0.6" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0.6" x2="1.2" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.2" x2="1.5927" y1="0.3505" y2="0.0652"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.5927" x2="2.0073" y1="0.0652" y2="-0.7722"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="2.0073" x2="1.5927" y1="-0.7722" y2="0.0652"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.5927" x2="1.5" y1="0.0652" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.5" x2="1.5" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.5" x2="1.2" y1="0.3505" y2="0.3505"/>
+<polygon points="0.925 0.3504823 0.96250117 0.3721309 0.9624988 0.32882962" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="0.95" y="0.36298093">
+93
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.01028282" x2="0" y1="0.9155764" y2="0.95048094"/>
+<polygon points="0.0070647695 0.974462 0.01723578 0.93237215 -0.024300555 0.9446087" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="0" y="0.9629809">
+56
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.29221025" x2="-0.2906523" y1="0.5586686" y2="0.60030615"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.2906523" x2="-0.2646" y1="0.60030615" y2="1.2968"/>
+<polygon points="-0.28971782 0.62528867 -0.26948404 0.5870056 -0.31275505 0.5886242" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.2906523" y="0.61280614">
+160
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.870016" x2="1.9254781" y1="-0.49494645" y2="-0.6069685"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.9254781" x2="2.0073" y1="-0.6069685" y2="-0.7722"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="2.0073" x2="1.5927" y1="-0.7722" y2="0.0652"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.5927" x2="1.2" y1="0.0652" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.2" x2="0.6" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0.6" x2="0" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0" x2="-0.3" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.3" x2="0" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0" x2="0.6" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0.6" x2="1.2" y1="0.3505" y2="0.3505"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.2" x2="1.5927" y1="0.3505" y2="0.0652"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="1.5927" x2="2.0073" y1="0.0652" y2="-0.7722"/>
+<polygon points="1.9365722 -0.6293721 1.900529 -0.6053745 1.9393331 -0.58615893" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="1.9254781" y="-0.59446853">
+1
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.36156625" x2="-0.35504815" y1="0.7797297" y2="0.8208834"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.35504815" x2="-0.3527" y1="0.8208834" y2="0.8359"/>
+<polygon points="-0.35118583 0.84558326 -0.33558863 0.8051886 -0.37837002 0.8118783" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.35504815" y="0.8333834">
+150
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="2.0477457" x2="2.007295" y1="-0.8016108" y2="-0.77222157"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="2.007295" x2="2.25" y1="-0.77222157" y2="-0.9486"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="2.25" x2="2.0073" y1="-0.9486" y2="-0.7722"/>
+<polygon points="2.0275185 -0.7869185 1.9844551 -0.7823873 2.009911 -0.7473588" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="2.007295" y="-0.7597216">
+1
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.2427051" x2="-0.2427051" y1="0.17414537" y2="0.21581204"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.2427051" x2="-0.2427" y1="0.21581204" y2="0.5268"/>
+<polygon points="-0.24270469 0.24081205 -0.22105467 0.20331168 -0.26435596 0.20331241" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.2427051" y="0.22831205">
+523
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="0.06216401" x2="0.07459681" y1="0.75163823" y2="0.7118697"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="0.07459681" x2="0.2427" y1="0.7118697" y2="0.1741"/>
+<polygon points="0.0820557 0.68800837 0.05020281 0.7173408 0.09153191 0.73026" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="0.07459681" y="0.7243697">
+1
+</text>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.04166667" x2="-0.08333333" y1="0.35048094" y2="0.35048094"/>
+<line stroke="#C11A00" stroke-width="0.01" x1="-0.08333333" x2="-0.3" y1="0.35048094" y2="0.3505"/>
+<polygon points="-0.10833333 0.35048315 -0.07083142 0.37213048 -0.07083524 0.3288292" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.08333333" y="0.36298093">
+261
+</text>
+</g>
+<g fill="#E16200"/>
+<g fill="#FFBE0E">
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-1.0995877" x2="-1.1026711" y1="1.1636205" y2="1.1641089"/>
+<polygon points="-1.1273633 1.1680199 -1.086938 1.1835374 -1.0937122 1.1407692" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.1026711" y="1.1766089">
+1
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.56716496" x2="-0.5645898" y1="1.0868106" y2="1.0788852"/>
+<polygon points="-0.55686426 1.0551088 -0.5890435 1.0840828 -0.54786164 1.0974638" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.5645898" y="1.0913852">
+246
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.7583333" x2="-0.75" y1="1.6495191" y2="1.6495191"/>
+<polygon points="-0.725 1.6495191 -0.7625 1.6278684 -0.7625 1.6711698" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.75" y="1.6620191">
+374
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-1.0184565" x2="-1.0313323" y1="1.7465999" y2="1.7069726"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-1.0313323" x2="-1.05" y1="1.7069726" y2="1.6495"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-1.05" x2="-0.9927" y1="1.6495" y2="1.4732"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.9927" x2="-0.9927" y1="1.4732" y2="1.8259"/>
+<polygon points="-1.0390553 1.6831955 -1.0480623 1.7255496 -1.0068791 1.7121727" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.0313323" y="1.7194726">
+214
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.4261642" x2="-0.39732885" y1="1.1863031" y2="1.1641089"/>
+<polygon points="-0.37751764 1.1488605 -0.42044002 1.1545761 -0.3940289 1.1888901" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.39732885" y="1.1766089">
+348
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.38075843" x2="-0.3863759" y1="1.0423224" y2="1.0836087"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.3863759" x2="-0.3973" y1="1.0836087" y2="1.1641"/>
+<polygon points="-0.38973802 1.1083816 -0.3632409 1.074134 -0.4061488 1.0683106" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.3863759" y="1.0961088">
+1
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.41122156" x2="-0.39183235" y1="1.5757581" y2="1.5388776"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.39183235" x2="-0.2646" y1="1.5388776" y2="1.2968"/>
+<polygon points="-0.38020137 1.516748 -0.41681266 1.5398697 -0.37848303 1.5600152" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.39183235" y="1.5513777">
+169
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-1.2245029" x2="-1.2354102" y1="1.9814433" y2="2.00219"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-1.2354102" x2="-0.75" y1="2.00219" y2="1.6495"/>
+<polygon points="-1.2151852 1.987495 -1.2582492 1.9920223 -1.2327963 2.027053" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.2354102" y="2.0146902">
+124
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.2940526" x2="-0.32351536" y1="2.031653" y2="2.0611157"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.32351536" x2="-0.3973" y1="2.0611157" y2="2.1349"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.3973" x2="-0.5646" y1="2.1349" y2="2.2202"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.5646" x2="-0.1794" y1="2.2202" y2="1.8349"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.1794" x2="-0.2646" y1="1.8349" y2="2.0022"/>
+<polygon points="-0.34119305 2.0787933 -0.29936722 2.0675862 -0.3299858 2.0369675" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.32351536" y="2.0736158">
+23
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.67920053" x2="-0.6572949" y1="1.3801175" y2="1.3642021"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.6572949" x2="-0.5646" y1="1.3642021" y2="1.0789"/>
+<polygon points="-0.6495699 1.3404256 -0.6817485 1.3694004 -0.64056635 1.3827804" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.6572949" y="1.3767022">
+375
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.8979231" x2="-0.9354102" y1="2.2201529" y2="2.2201529"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.9354102" x2="-0.75" y1="2.2201529" y2="1.6495"/>
+<polygon points="-0.927685 2.1963763 -0.95986384 2.2253509 -0.91868174 2.2387314" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.9354102" y="2.232653">
+123
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.22836952" x2="-0.2369614" y1="1.1249709" y2="1.165742"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.2369614" x2="-0.2646" y1="1.165742" y2="1.2968"/>
+<polygon points="-0.24212013 1.190204 -0.21319735 1.1579787 -0.25556672 1.1490434" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.2369614" y="1.1782421">
+1
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.9859633" x2="-0.9927051" y1="1.4780817" y2="1.4731835"/>
+<polygon points="-1.0129306 1.458489 -0.99531823 1.4980465 -0.9698665 1.4630151" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.9927051" y="1.4856836">
+1
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.6572949" x2="-0.69896156" y1="1.3642021" y2="1.3642021"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.69896156" x2="-0.8427" y1="1.3642021" y2="1.3642"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.8427" x2="-0.6573" y1="1.3642" y2="1.3642"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.6573" x2="-0.5073" y1="1.3642" y2="1.4732"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.5073" x2="-0.6573" y1="1.4732" y2="1.3642"/>
+<polygon points="-0.72396153 1.3642018 -0.68646187 1.3858529 -0.68646127 1.3425517" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.69896156" y="1.3767022">
+1
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.48960286" x2="-0.5169892" y1="0.9929023" y2="1.0243045"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.5169892" x2="-0.5646" y1="1.0243045" y2="1.0789"/>
+<polygon points="-0.53342044 1.0431463 -0.49245605 1.0291135 -0.525091 1.0006537" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.5169892" y="1.0368046">
+1
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.5969463" x2="-0.6214374" y1="1.8517733" y2="1.8854823"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.6214374" x2="-0.6573" y1="1.8854823" y2="1.9348"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.6573" x2="-0.5073" y1="1.9348" y2="1.8259"/>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-0.5073" x2="-0.45" y1="1.8259" y2="1.6495"/>
+<polygon points="-0.63614035 1.9057016 -0.5965754 1.8881059 -0.6315963 1.8626394" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.6214374" y="1.8979824">
+15
+</text>
+<line stroke="#FFBE0E" stroke-width="0.01" x1="-1.2906153" x2="-1.3206339" y1="1.4846745" y2="1.4641088"/>
+<polygon points="-1.341258 1.4499793 -1.3225584 1.4890347 -1.2980852 1.4533125" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.3206339" y="1.4766089">
+26
+</text>
+</g>
+<g fill="#0433FF">
+<line stroke="#0433FF" stroke-width="0.01" x1="-0.07396157" x2="-0.0927051" y1="0.6357979" y2="0.6357979"/>
+<polygon points="-0.1177051 0.6357979 -0.0802051 0.65744853 -0.080205105 0.6141473" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.0927051" y="0.6482979">
+104
+</text>
+<line stroke="#0433FF" stroke-width="0.01" x1="1.4227457" x2="1.40987" y1="0.11271682" y2="0.07308946"/>
+<line stroke="#0433FF" stroke-width="0.01" x1="1.40987" x2="1.4073" y1="0.07308946" y2="0.0652"/>
+<polygon points="1.4021267 0.049318887 1.3931558 0.09168072 1.4343276 0.07826877" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="1.40987" y="0.08558946">
+1
+</text>
+<line stroke="#0433FF" stroke-width="0.01" x1="1.6601232" x2="1.6938323" y1="0.5868158" y2="0.56232476"/>
+<line stroke="#0433FF" stroke-width="0.01" x1="1.6938323" x2="1.7427" y1="0.56232476" y2="0.5268"/>
+<polygon points="1.7140538 0.54762465 1.6709908 0.5521626 1.6964523 0.5871871" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="1.6938323" y="0.57482475">
+13
+</text>
+<line stroke="#0433FF" stroke-width="0.01" x1="1.45" x2="1.5" y1="0.35048094" y2="0.35048094"/>
+<polygon points="1.525 0.35048094 1.4875 0.3288303 1.4875 0.3721316" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="1.5" y="0.36298093">
+126
+</text>
+<line stroke="#0433FF" stroke-width="0.01" x1="-0.3265068" x2="-0.34047374" y1="0.76235265" y2="0.8016087"/>
+<line stroke="#0433FF" stroke-width="0.01" x1="-0.34047374" x2="-0.3527" y1="0.8016087" y2="0.8359"/>
+<polygon points="-0.34886956 0.8251567 -0.31588262 0.79710567 -0.35666904 0.7825637" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.34047374" y="0.81410867">
+317
+</text>
+<line stroke="#0433FF" stroke-width="0.01" x1="0.35" x2="0.225" y1="0.35048094" y2="0.35048094"/>
+<line stroke="#0433FF" stroke-width="0.01" x1="0.225" x2="0" y1="0.35048094" y2="0.3505"/>
+<polygon points="0.19999999 0.35048306 0.23750183 0.3721305 0.23749816 0.32882926" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="0.225" y="0.36298093">
+115
+</text>
+<line stroke="#0433FF" stroke-width="0.01" x1="-0.23900811" x2="-0.1979411" y1="0.6608908" y2="0.6538473"/>
+<line stroke="#0433FF" stroke-width="0.01" x1="-0.1979411" x2="-0.0927" y1="0.6538473" y2="0.6358"/>
+<polygon points="-0.17330077 0.64962184 -0.21392061 0.63462085 -0.2066019 0.67729914" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.1979411" y="0.66634727">
+1
+</text>
+<line stroke="#0433FF" stroke-width="0.01" x1="-0.16854522" x2="-0.20225425" y1="0.4729362" y2="0.49742725"/>
+<line stroke="#0433FF" stroke-width="0.01" x1="-0.20225425" x2="-0.2427" y1="0.49742725" y2="0.5268"/>
+<polygon points="-0.22248273 0.5121177 -0.17941773 0.5076004 -0.20486231 0.47256365" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.20225425" y="0.5099273">
+500
+</text>
+<line stroke="#0433FF" stroke-width="0.01" x1="0.9" x2="0.85833335" y1="0.35048094" y2="0.35048094"/>
+<line stroke="#0433FF" stroke-width="0.01" x1="0.85833335" x2="0.6" y1="0.35048094" y2="0.3505"/>
+<polygon points="0.8333334 0.3504828 0.87083495 0.37213066 0.8708317 0.32882938" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="0.85833335" y="0.36298093">
+113
+</text>
+</g>
+<g fill="#00A0DF">
+<line stroke="#00A0DF" stroke-width="0.01" x1="-0.5015028" x2="-0.5072949" y1="1.4910096" y2="1.4731835"/>
+<polygon points="-0.5150204 1.4494071 -0.5240231 1.4917622 -0.4828412 1.4783813" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-0.5072949" y="1.4856836">
+759
+</text>
+<line stroke="#00A0DF" stroke-width="0.01" x1="-1.2515029" x2="-1.2572949" y1="2.7900476" y2="2.7722216"/>
+<polygon points="-1.2650203 2.748445 -1.2740232 2.7908 -1.2328413 2.7774193" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.2572949" y="2.7847216">
+47
+</text>
+<line stroke="#00A0DF" stroke-width="0.01" x1="-1.1159129" x2="-1.1026711" y1="2.1578944" y2="2.1349292"/>
+<polygon points="-1.0901833 2.1132715 -1.1276711 2.1349432 -1.0901589 2.1565728" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.1026711" y="2.1474292">
+486
+</text>
+<line stroke="#00A0DF" stroke-width="0.01" x1="-1.5416666" x2="-1.5833334" y1="2.9485571" y2="2.9485571"/>
+<line stroke="#00A0DF" stroke-width="0.01" x1="-1.5833334" x2="-1.8" y1="2.9485571" y2="2.9486"/>
+<polygon points="-1.6083333 2.9485621 -1.570829 2.9702053 -1.5708376 2.926904" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.5833334" y="2.9610572">
+1
+</text>
+<line stroke="#00A0DF" stroke-width="0.01" x1="-1.5669537" x2="-1.554078" y1="2.7424948" y2="2.7821224"/>
+<line stroke="#00A0DF" stroke-width="0.01" x1="-1.554078" x2="-1.5" y1="2.7821224" y2="2.9486"/>
+<polygon points="-1.5463543 2.8058994 -1.5373483 2.763545 -1.5785313 2.7769227" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.554078" y="2.7946224">
+14
+</text>
+<line stroke="#00A0DF" stroke-width="0.01" x1="-1.40987" x2="-1.4072949" y1="3.2259486" y2="3.233874"/>
+<polygon points="-1.3995694 3.2576504 -1.3905666 3.2152956 -1.4317485 3.2286763" stroke="black" stroke-width="0.005"/>
+<text class="fleet" text-anchor="middle" x="-1.4072949" y="3.2463741">
+9
+</text>
+</g>
+<g class="star">
+<text text-anchor="middle" x="-1.5927" y="3.1589">
+Mekbuda
+</text>
+<text text-anchor="middle" x="-0.75" y="0.9745">
+Menkent
+</text>
+<text text-anchor="middle" x="1.3146" y="-0.2952">
+Grosjean
+</text>
+<text text-anchor="middle" x="-1.7646" y="1.9271998">
+Syrma
+</text>
+<text text-anchor="middle" x="-0.9294" y="3.059">
+Bam
+</text>
+<text text-anchor="middle" x="0.5706" y="0.4609">
+Clarkson
+</text>
+<text text-anchor="middle" x="-0.75" y="2.1745">
+Arkab
+</text>
+<text text-anchor="middle" x="-0.1794" y="1.7599">
+Sulafat
+</text>
+<text text-anchor="middle" x="-1.7427" y="2.6972">
+Mud
+</text>
+<text text-anchor="middle" x="1.95" y="-1.0236">
+Labonte
+</text>
+<text text-anchor="middle" x="-1.7646" y="1.2218">
+Alkalurops
+</text>
+<text text-anchor="middle" x="1.6794" y="-1.209">
+Earnhardt Jr
+</text>
+<text text-anchor="middle" x="2.0706" y="0.4609">
+Adhara
+</text>
+<text text-anchor="middle" x="1.1473" y="-0.2099">
+Merope
+</text>
+<text text-anchor="middle" x="-1.8973" y="2.0599">
+Asellus
+</text>
+<text text-anchor="middle" x="2.7354" y="-0.6709">
+Perez
+</text>
+<text text-anchor="middle" x="-1.1027" y="1.0891">
+Pure Pax
+</text>
+<text text-anchor="middle" x="-1.9854" y="2.5209">
+Arc
+</text>
+<text text-anchor="middle" x="-0.9" y="2.8736">
+Sun
+</text>
+<text text-anchor="middle" x="-2.4354" y="2.1452">
+Spy
+</text>
+<text text-anchor="middle" x="-1.0146" y="3.2261999">
+Ick
+</text>
+<text text-anchor="middle" x="-1.95" y="1.5745">
+Ksora
+</text>
+<text text-anchor="middle" x="1.3146" y="0.84610003">
+Mimosa
+</text>
+<text text-anchor="middle" x="2.25" y="-1.0236">
+Alonso
+</text>
+<text text-anchor="middle" x="1.5927" y="0.5608">
+Alphecca
+</text>
+<text text-anchor="middle" x="1.8" y="0.2755">
+Enif
+</text>
+<text text-anchor="middle" x="-2.1573" y="1.2892">
+Sky
+</text>
+<text text-anchor="middle" x="-2.4927" y="1.3981999">
+Propus
+</text>
+<text text-anchor="middle" x="-1.6854" y="3.4442">
+Dnoces
+</text>
+<text text-anchor="middle" x="1.0146" y="-0.0772">
+Eltanin
+</text>
+<text text-anchor="middle" x="2.8206" y="-0.8381">
+Jolyon
+</text>
+<text text-anchor="middle" x="1.4073" y="-0.009800002">
+Mebsuta
+</text>
+<text text-anchor="middle" x="-0.45" y="1.5745">
+Alnasl
+</text>
+<text text-anchor="middle" x="-1.7427" y="3.0499">
+Caph
+</text>
+<text text-anchor="middle" x="-0.3527" y="0.7609">
+Polaris
+</text>
+<text text-anchor="middle" x="0" y="0.8755">
+Mia
+</text>
+<text text-anchor="middle" x="0.4854" y="-0.0772">
+Pile
+</text>
+<text text-anchor="middle" x="2.4927" y="-1.1999">
+Stewart
+</text>
+<text text-anchor="middle" x="-2.7354" y="1.9271998">
+Marfik
+</text>
+<text text-anchor="middle" x="1.8973" y="-0.5381">
+Vettel
+</text>
+<text text-anchor="middle" x="-0.2646" y="1.2218">
+Lanx
+</text>
+<text text-anchor="middle" x="-0.9354" y="2.1452">
+Gatria
+</text>
+<text text-anchor="middle" x="-2.0706" y="3.059">
+Albali
+</text>
+<text text-anchor="middle" x="-0.5073" y="1.3981999">
+Murzim
+</text>
+<text text-anchor="middle" x="-0.75" y="1.5745">
+Hassaleh
+</text>
+<text text-anchor="middle" x="-2.55" y="1.5745">
+Dabih
+</text>
+<text text-anchor="middle" x="-2.8206" y="1.7599">
+Sabik
+</text>
+<text text-anchor="middle" x="0.6" y="0.2755">
+Alzir
+</text>
+<text text-anchor="middle" x="-1.5" y="3.4736">
+Alniyat
+</text>
+<text text-anchor="middle" x="-1.6794" y="1.7599">
+Wasat
+</text>
+<text text-anchor="middle" x="-2.6027" y="2.0599">
+Mizar
+</text>
+<text text-anchor="middle" x="-2.1" y="2.8736">
+Pug
+</text>
+<text text-anchor="middle" x="-0.3973" y="1.0891">
+Dux
+</text>
+<text text-anchor="middle" x="-1.8" y="2.8736">
+Rukbat
+</text>
+<text text-anchor="middle" x="-1.3146" y="2.3028998">
+Proxima
+</text>
+<text text-anchor="middle" x="-1.2573" y="2.6972">
+Talitha
+</text>
+<text text-anchor="middle" x="-0.6" y="0.2755">
+Ale
+</text>
+<text text-anchor="middle" x="2.8206" y="-1.209">
+Tsunoda
+</text>
+<text text-anchor="middle" x="1.7646" y="-0.6709">
+Adam Driver
+</text>
+<text text-anchor="middle" x="-1.35" y="1.5745">
+Sadalmelik
+</text>
+<text text-anchor="middle" x="-2.0646" y="1.0038999">
+Rotanev
+</text>
+<text text-anchor="middle" x="-1.1027" y="2.0599">
+Cox
+</text>
+<text text-anchor="middle" x="-1.3206" y="1.7599">
+Becrux
+</text>
+<text text-anchor="middle" x="-2.0646" y="2.1452">
+Tab
+</text>
+<text text-anchor="middle" x="-1.8973" y="1.0891">
+Segin
+</text>
+<text text-anchor="middle" x="-0.9927" y="1.7508999">
+Asp
+</text>
+<text text-anchor="middle" x="-0.1854" y="-0.2952">
+Jason Momoa
+</text>
+<text text-anchor="middle" x="-0.6573" y="1.2892">
+Menkib
+</text>
+<text text-anchor="middle" x="-2.7354" y="1.2218">
+Tag
+</text>
+<text text-anchor="middle" x="-1.8527" y="2.3881">
+Tejat
+</text>
+<text text-anchor="middle" x="-2.1573" y="1.8598">
+Algieba
+</text>
+<text text-anchor="middle" x="-0.6573" y="1.8598">
+Imp
+</text>
+<text text-anchor="middle" x="-0.2427" y="0.4518">
+Terram
+</text>
+<text text-anchor="middle" x="-0.0927" y="-0.009800002">
+Shaw
+</text>
+<text text-anchor="middle" x="-0.9927" y="1.3981999">
+Altais
+</text>
+<text text-anchor="middle" x="2.7354" y="-1.3762001">
+Latifi
+</text>
+<text text-anchor="middle" x="2.3427" y="-1.3089">
+Petty
+</text>
+<text text-anchor="middle" x="1.7646" y="-1.3762001">
+Earnhardt
+</text>
+<text text-anchor="middle" x="-1.4073" y="2.5881999">
+Neshmet
+</text>
+<text text-anchor="middle" x="-0.2646" y="1.9271998">
+Wazn
+</text>
+<text text-anchor="middle" x="-1.2573" y="3.0499">
+Mira
+</text>
+<text text-anchor="middle" x="2.6027" y="-1.5090001">
+Toretto
+</text>
+<text text-anchor="middle" x="-2.0073" y="1.3981999">
+Denebola
+</text>
+<text text-anchor="middle" x="-0.3973" y="2.0599">
+Merak
+</text>
+<text text-anchor="middle" x="1.7427" y="0.09909999">
+Vindemiatrix
+</text>
+<text text-anchor="middle" x="1.0146" y="0.6282">
+Sargas
+</text>
+<text text-anchor="middle" x="2.85" y="-1.0236">
+Prost
+</text>
+<text text-anchor="middle" x="2.1573" y="-0.7382">
+Senna
+</text>
+<text text-anchor="middle" x="-2.3427" y="1.8598">
+Askella
+</text>
+<text text-anchor="middle" x="1.5927" y="-0.009800002">
+Alya
+</text>
+<text text-anchor="middle" x="1.9854" y="-0.0772">
+Aludra
+</text>
+<text text-anchor="middle" x="2.4354" y="-0.4529">
+Mansell
+</text>
+<text text-anchor="middle" x="-1.6794" y="1.3891">
+Errai
+</text>
+<text text-anchor="middle" x="2.55" y="-1.0236">
+Hamilton
+</text>
+<text text-anchor="middle" x="-0.3" y="0.2755">
+Tej
+</text>
+<text text-anchor="middle" x="-1.1473" y="2.3881">
+Yed
+</text>
+<text text-anchor="middle" x="2.4354" y="-1.5942">
+Johnson
+</text>
+<text text-anchor="middle" x="0.5706" y="0.09009999">
+Diesel
+</text>
+<text text-anchor="middle" x="-1.9854" y="3.2261999">
+SteropeII
+</text>
+<text text-anchor="middle" x="-0.5706" y="0.4609">
+Pax
+</text>
+<text text-anchor="middle" x="1.9854" y="0.6282">
+Fin
+</text>
+<text text-anchor="middle" x="1.4073" y="0.5608">
+Decrux
+</text>
+<text text-anchor="middle" x="2.1" y="0.2755">
+Alamak
+</text>
+<text text-anchor="middle" x="1.8973" y="-1.5090001">
+Ocon
+</text>
+<text text-anchor="middle" x="0.0927" y="-0.009800002">
+Gisele
+</text>
+<text text-anchor="middle" x="-0.5073" y="1.7508999">
+Zit
+</text>
+<text text-anchor="middle" x="1.65" y="-1.0236">
+Earnhardt Jr Jr
+</text>
+<text text-anchor="middle" x="2.0646" y="-1.5942">
+Norris
+</text>
+<text text-anchor="middle" x="2.1573" y="-1.3089">
+Verstappen
+</text>
+<text text-anchor="middle" x="0.1854" y="0.84610003">
+Letty Ortiz
+</text>
+<text text-anchor="middle" x="-1.05" y="1.5745">
+Sasin
+</text>
+<text text-anchor="middle" x="-2.4354" y="1.0038999">
+AlGiedi
+</text>
+<text text-anchor="middle" x="-2.3427" y="1.2892">
+Schedir
+</text>
+<text text-anchor="middle" x="-1.5" y="2.8736">
+Almach
+</text>
+<text text-anchor="middle" x="0.1854" y="-0.2952">
+Baby
+</text>
+<text text-anchor="middle" x="0.3" y="0.2755">
+Qui
+</text>
+<text text-anchor="middle" x="1.1473" y="0.7609">
+Rukh
+</text>
+<text text-anchor="middle" x="2.0073" y="-0.8472">
+Schumacher
+</text>
+<text text-anchor="middle" x="2.25" y="-0.42360002">
+Jerry
+</text>
+<text text-anchor="middle" x="-0.1854" y="0.84610003">
+Vince
+</text>
+<text text-anchor="middle" x="2.25" y="-1.6236">
+De Vries
+</text>
+<text text-anchor="middle" x="1.8527" y="0.7609">
+Alwaid
+</text>
+<text text-anchor="middle" x="1.2573" y="0.4518">
+Aladfar
+</text>
+<text text-anchor="middle" x="-1.4073" y="3.1589">
+Haldus
+</text>
+<text text-anchor="middle" x="1.5" y="-0.32450002">
+Theemin
+</text>
+<text text-anchor="middle" x="1.6854" y="0.84610003">
+Keid
+</text>
+<text text-anchor="middle" x="-2.0706" y="2.6880999">
+Kaus
+</text>
+<text text-anchor="middle" x="-0.8427" y="1.2892">
+Rub
+</text>
+<text text-anchor="middle" x="0.9294" y="0.09009999">
+RIP Paul Walker
+</text>
+<text text-anchor="middle" x="1.6794" y="-0.8381">
+Danica Patrick
+</text>
+<text text-anchor="middle" x="2.0646" y="-0.4529">
+Leclerc
+</text>
+<text text-anchor="middle" x="-1.8527" y="3.359">
+Minkar
+</text>
+<text text-anchor="middle" x="1.7427" y="0.4518">
+Kajam
+</text>
+<text text-anchor="middle" x="1.8527" y="-0.2099">
+Andretti
+</text>
+<text text-anchor="middle" x="1.2" y="0.2755">
+Alcyone
+</text>
+<text text-anchor="middle" x="-0.3527" y="-0.2099">
+Racer X
+</text>
+<text text-anchor="middle" x="1.5" y="0.8755">
+Kit
+</text>
+<text text-anchor="middle" x="0.0927" y="0.5608">
+Tenuerit
+</text>
+<text text-anchor="middle" x="0" y="0.2755">
+Arided
+</text>
+<text text-anchor="middle" x="-0.5646" y="1.0038999">
+Regulus
+</text>
+<text text-anchor="middle" x="2.4927" y="-0.8472">
+Villeneuve
+</text>
+<text text-anchor="middle" x="-1.3146" y="3.4442">
+Media
+</text>
+<text text-anchor="middle" x="0.4854" y="0.6282">
+Hammond
+</text>
+<text text-anchor="middle" x="-2.85" y="1.5745">
+Azimech
+</text>
+<text text-anchor="middle" x="-1.2354" y="1.9271998">
+Cheleb
+</text>
+<text text-anchor="middle" x="-0.9294" y="2.6880999">
+Diphda
+</text>
+<text text-anchor="middle" x="0.3527" y="0.7609">
+May
+</text>
+<text text-anchor="middle" x="-0.15" y="1.5745">
+Alpheratz
+</text>
+<text text-anchor="middle" x="-0.9354" y="1.0038999">
+Mac
+</text>
+<text text-anchor="middle" x="-1.6854" y="2.3028998">
+Alcor
+</text>
+<text text-anchor="middle" x="-0.0927" y="0.5608">
+Elon Memorial
+</text>
+<text text-anchor="middle" x="-0.2427" y="0.09909999">
+Hobbs
+</text>
+<text text-anchor="middle" x="-1.5" y="2.2735999">
+Aldhanab
+</text>
+<text text-anchor="middle" x="1.5" y="0.2755">
+Acamar
+</text>
+<text text-anchor="middle" x="-2.25" y="0.9745">
+Chi
+</text>
+<text text-anchor="middle" x="-0.4854" y="0.6282">
+Misam
+</text>
+<text text-anchor="middle" x="2.6027" y="-0.5381">
+Ricciardo
+</text>
+<text text-anchor="middle" x="-1.2" y="2.8736">
+Mintaka
+</text>
+<text text-anchor="middle" x="-2.25" y="2.1745">
+Garnet
+</text>
+<text text-anchor="middle" x="0.2427" y="0.4518">
+Tegmen
+</text>
+<text text-anchor="middle" x="0.9294" y="0.4609">
+Salm
+</text>
+<text text-anchor="middle" x="0.3527" y="-0.2099">
+Roman
+</text>
+<text text-anchor="middle" x="-0.4854" y="-0.0772">
+Speed Racer
+</text>
+<text text-anchor="middle" x="-1.5927" y="2.5881999">
+Menchib
+</text>
+<text text-anchor="middle" x="-0.8427" y="1.8598">
+Marfark
+</text>
+<text text-anchor="middle" x="-2.0073" y="1.7508999">
+Sham
+</text>
+<text text-anchor="middle" x="-2.25" y="1.5745">
+Castor
+</text>
+<text text-anchor="middle" x="0.9" y="0.2755">
+Ras
+</text>
+<text text-anchor="middle" x="-1.65" y="1.5745">
+Biham
+</text>
+<text text-anchor="middle" x="-2.8206" y="1.3891">
+Zoo
+</text>
+<text text-anchor="middle" x="1.6854" y="-0.2952">
+Jaw
+</text>
+<text text-anchor="middle" x="-1.2354" y="1.2218">
+Dschubba
+</text>
+<text text-anchor="middle" x="2.0073" y="-1.1999">
+Sainz
+</text>
+<text text-anchor="middle" x="-2.4927" y="1.7508999">
+Tic
+</text>
+<text text-anchor="middle" x="-0.5706" y="0.09009999">
+Elm
+</text>
+<text text-anchor="middle" x="-0.5646" y="2.1452">
+TienKuan
+</text>
+<text text-anchor="middle" x="-1.3206" y="1.3891">
+Mirzam
+</text>
+<text text-anchor="middle" x="1.2573" y="0.09909999">
+Elnath
+</text>
+<text text-anchor="middle" x="-0.1794" y="1.3891">
+Alfecca
+</text>
+<text text-anchor="middle" x="-2.6027" y="1.0891">
+Sarin
+</text>
+<text text-anchor="middle" x="0.2427" y="0.09909999">
+Han SeoulO
+</text>
+<text text-anchor="middle" x="2.3427" y="-0.7382">
+Gordon
+</text>
+<text text-anchor="middle" x="2.0706" y="0.09009999">
+Sadira
+</text>
+<text text-anchor="middle" x="0" y="-0.32450002">
+Ramsey
+</text>
+<text text-anchor="middle" x="-1.0146" y="2.5209">
+Yay
+</text>
+<text text-anchor="middle" x="-1.1473" y="3.359">
+Sheliak
+</text>
+</g>
+</svg>
