@@ -46,7 +46,11 @@
                         controlIconsEnabled: true
                     });
                 }
-                embed.addEventListener('load', lastEventListener)
+                try {
+                    embed.addEventListener('load', lastEventListener)
+                } catch {
+                    console.log(`${src} doesn't exist.`)
+                }
 
                 return embed
             }
