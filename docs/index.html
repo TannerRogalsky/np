@@ -41,12 +41,10 @@
                 document.getElementById('container').appendChild(embed)
 
                 lastEventListener = function () {
-                    try {
-                        svgPanZoom(embed, {
-                            zoomEnabled: true,
-                            controlIconsEnabled: true
-                        });
-                    } catch { }
+                    svgPanZoom(embed, {
+                        zoomEnabled: true,
+                        controlIconsEnabled: true
+                    });
                 }
                 embed.addEventListener('load', lastEventListener);
 
@@ -72,8 +70,12 @@
             }
 
             $('#tickRange').on('input', function (event, ui) {
-                removeEmbed()
-                lastEmbed = setupNewEmbed(event.target.value);
+                try {
+                    removeEmbed()
+                    lastEmbed = setupNewEmbed(event.target.value);
+                } catch (e) {
+                    console.error(e)
+                }
             });
         });
     </script>
