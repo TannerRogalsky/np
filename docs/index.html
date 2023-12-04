@@ -40,7 +40,8 @@
 
                 document.getElementById('container').appendChild(embed)
 
-                lastEventListener = function () {
+                lastEventListener = function (event) {
+                    console.log(event)
                     svgPanZoom(embed, {
                         zoomEnabled: true,
                         controlIconsEnabled: true
@@ -53,28 +54,35 @@
 
             function setupNewEmbed(index) {
                 const id = index.padStart(5, '0');
+                $('#tickRangeLabel').text(index);
                 const lastEmbedSrc = `svgs/4725907836895232_tick${id}.svg`;
                 const lastEmbed = createNewEmbed(lastEmbedSrc);
-                $('#tickRangeLabel').text(index);
                 return lastEmbed;
             }
 
             let lastEmbed = setupNewEmbed('0');
 
             function removeEmbed() {
-                svgPanZoom(lastEmbed).destroy()
-                lastEmbed.removeEventListener('load', lastEventListener)
-                lastEventListener = null
-                document.getElementById('container').removeChild(lastEmbed)
-                lastEmbed = null
+                try {
+                    svgPanZoom(lastEmbed).destroy()
+                } catch (e) {
+                } finally {
+                    if (lastEmbed) {
+                        lastEmbed.removeEventListener('load', lastEventListener)
+                        document.getElementById('container').removeChild(lastEmbed)
+                    }
+                    lastEventListener = null
+                    lastEmbed = null
+                }
             }
 
             $('#tickRange').on('input', function (event, ui) {
+                console.log(event.target.value)
                 try {
                     removeEmbed()
                     lastEmbed = setupNewEmbed(event.target.value);
                 } catch (e) {
-                    console.error(e)
+                    // console.error(e)
                 }
             });
         });
