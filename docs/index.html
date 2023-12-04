@@ -41,16 +41,14 @@
                 document.getElementById('container').appendChild(embed)
 
                 lastEventListener = function () {
-                    svgPanZoom(embed, {
-                        zoomEnabled: true,
-                        controlIconsEnabled: true
-                    });
+                    try {
+                        svgPanZoom(embed, {
+                            zoomEnabled: true,
+                            controlIconsEnabled: true
+                        });
+                    } catch { }
                 }
-                try {
-                    embed.addEventListener('load', lastEventListener)
-                } catch {
-                    console.log(`${src} doesn't exist.`)
-                }
+                embed.addEventListener('load', lastEventListener);
 
                 return embed
             }
