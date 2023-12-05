@@ -11,8 +11,17 @@ CREATE TABLE IF NOT EXISTS players (
     unique(player_id, game_id)
 );
 
+CREATE TABLE IF NOT EXISTS ticks (
+    id SERIAL primary key,
+    game_id int references games(id) on delete cascade,
+    tick_id int,
+    UNIQUE (game_id, tick_id)
+);
+
 CREATE TABLE IF NOT EXISTS universes (
     id SERIAL primary key,
+    tick_id int references ticks(id) on delete cascade,
     player_id int references players(id) on delete cascade,
-    payload JSONB
+    payload JSONB,
+    UNIQUE (tick_id, player_id)
 );

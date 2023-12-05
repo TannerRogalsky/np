@@ -19,8 +19,10 @@ async fn main() {
             continue;
         }
 
+        let tick = db::Tick::fetch_or_insert(tick, &game, &db).await.unwrap();
+
         let reports = game
-            .most_recent_universes_for_tick(tick, &db)
+            .universes_for_tick(&tick, &db)
             .await
             .unwrap()
             .into_iter()

@@ -50,7 +50,7 @@ async fn handler(
         .into_iter()
         .map(|player| {
             let player_id = player.id;
-            handle_player(game_id, player, client, pool).map_err(move |err| (player_id, err))
+            handle_player(&game, player, client, pool).map_err(move |err| (player_id, err))
         })
         .collect::<futures::stream::FuturesUnordered<_>>()
         .collect::<Vec<Result<_, _>>>()
@@ -66,14 +66,14 @@ async fn handler(
 }
 
 async fn handle_player(
-    game_id: i64,
+    game: &db::Game,
     player: db::Player,
     client: &reqwest::Client,
     pool: &db::Pool,
 ) -> Result<(), db::Error> {
     let request = client
         .post("https://np.ironhelmet.com/api")
-        .form(&api::APIRequest::v0_1(game_id, &player.api_token));
+        .form(&api::APIRequest::v0_1(game.game_id, &player.api_token));
     tracing::trace!("{:?}", request);
     let response = request.send().await.unwrap();
     tracing::trace!("{:?}", response);
@@ -82,7 +82,11 @@ async fn handle_player(
     let parsed = serde_json::from_str::<api::APIResponse>(&body).unwrap();
     tracing::trace!("{:#?}", parsed);
 
-    player.save_report(parsed.scanning_data, pool).await?;
+    let tick = db::Tick::fetch_or_insert(parsed.scanning_data.tick, game, pool).await?;
+
+    player
+        .save_report(&tick, parsed.scanning_data, pool)
+        .await?;
 
     Ok(())
 }

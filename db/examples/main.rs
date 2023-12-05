@@ -18,6 +18,28 @@ async fn main() {
     let game = db::Game::fetch_or_insert(1234, &pool).await.unwrap();
     tracing::info!("{:?}", game);
 
+    let tick = db::Tick::fetch_or_insert(0, &game, &pool).await.unwrap();
+    tracing::info!("{:?}", tick);
+
     let players = game.players(&pool).await.unwrap();
-    tracing::info!("{:?}", players);
+    for player in players.iter() {
+        tracing::info!("{:?}", player);
+        player
+            .save_report(
+                &tick,
+                &TestReport {
+                    foo: 123,
+                    bar: vec![1, 2],
+                },
+                &pool,
+            )
+            .await
+            .unwrap();
+    }
+}
+
+#[derive(serde::Serialize, serde::Deserialize)]
+struct TestReport {
+    foo: u32,
+    bar: Vec<u32>,
 }
