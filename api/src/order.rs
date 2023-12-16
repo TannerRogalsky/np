@@ -53,7 +53,7 @@ pub struct Report {
     pub fleet_speed: f32,
     pub paused: bool,
     pub productions: i32,
-    pub tick_fragment: i32,
+    pub tick_fragment: f64,
     pub now: i64,
     pub tick_rate: i32,
     pub production_rate: i32,
